@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+    <!-- 🚨 Notice this link -->
+    <link id="dark-theme-style" rel="stylesheet" />
+
+    <link rel="stylesheet" href="study.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon-32x32.png">
+
+    <title>StartCoding | CheatSheet</title>
+</head>
+
+<body>
+
+    <!-- our navbar starts here -->
+    <nav class="navbar fixed navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">StartCoding</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Study Material
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="study Material.html">Web Development</a></li>
+                            <li><a class="dropdown-item" href="cheetsheet.html">Cheat Sheet</a></li>
+                            <li><a class="dropdown-item" href="#">Tech Fun</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="contact.html">Support</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Write for us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+
+                <div class="mx-2">
+                    <!-- 🚨 Notice the toggleTheme() function -->
+                    <a style="padding-left: 12px;padding-right: 12px;" href="javascript:void()"
+                        class="btn btn-outline-info ml-auto font-weight-bold" id="theme-toggler"
+                        onclick="toggleTheme()"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Our heading starts here -->
+
+
+    <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="cheatsheet.jpg" alt="" width="72" height="57">
+        <h2>CheatSheet</h2>
+        <p class="lead">We’re all for working smarter and saving time when you can. So we put together our ultimate list
+            of cheat sheets for web developers. We organized these nifty links by category: frontend, backend.</p>
+    </div>
+
+
+    <!-- Our Content Section start here -->
+
+    <ul>
+        <li><a href="htmlcheatsheet.pdf">HTML CHEATSHEET</a></li>
+        <li><a href="csscheatsheet.pdf">CSS CHEATSHEET</a></li>
+        <li><a href="Javascript-Cheat-Sheet.pdf">JAVASCRIPT CHEATSHEET</a></li>
+        <li><a href="Web.pdf">WEB-DEVELOPMENT SYNTAX CHEATSHEET</a></li>
+        <li><a href="Bootstrap-Cheat-Sheet-websitesetup.org_.pdf">BOOTSTRAP CHEATSHEET</a></li>
+        <li><a href="Python-Cheat-Sheet.pdf">PYTHON CHEATSHEET</a></li>
+        <li><a href="Java-Cheat-Sheet.pdf">JAVA CHEATSHEET</a></li>
+        <li><a href="PHP-Cheat-Sheet.pdf">PHP CHEATSHEET</a></li>
+        <li><a href="RW_Kotlin_Cheatsheet_1_0.pdf">KOTLIN CHEATSHEET</a></li>
+        <li><a href="C.CheatSheet.pdf">C PROGRAMMINNG CHEATSHEET</a></li>
+        <li><a href="Ruby-CheatSheet.pdf">RUBY CHEATSHEET</a></li>
+        <li><a href="C++_Cheatsheet_CodeWithHarry.pdf">C++ CHEATSHEET</a></li>
+        <li><a href="go-cheat-sheet.pdf">GO CHEATSHEET</a></li>
+    </ul>
+
+    <!-- Our footer starts here -->
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+            <li class="nav-item"><a href="study Material.html" class="nav-link px-2 text-muted">Study Material</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">FAQs</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2021-2022 StartCoding, Inc.</p>
+    </footer>
+
+
+    <!-- 🚨 Our custom JavaScript  -->
+    <script src="index.js"></script>
